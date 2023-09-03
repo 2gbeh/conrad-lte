@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+form.wrap {
+	margin:0 auto;
+	width:600px;}
+	
+	
+form.editor table tr {vertical-align:middle;}
+form.editor table tr td {padding:5px 10px;}
+form.editor table tr td:first-child {width:10px;}
+
+
+form.editor label {
+	text-align:right;
+	font-weight:bold;
+	display:block;}
+form.editor label::after {content:" :";}		
+form.editor input, 
+form.editor select {
+	padding:10px 15px;
+	background-color:#FFF;	
+	width:100%;
+	border:solid thin #DDD;}
+form.editor select {padding:10px;}
+form.editor input:focus {background-color:#FFC;}	
+form.editor input[type="reset"], 
+form.editor input[type="button"], 
+form.editor input[type="submit"] {
+	color:#555;
+	padding:10px 30px;
+	margin-left:5px;
+	width:auto;	
+	border:0;}	
+form.editor input[type="reset"]:active, 
+form.editor input[type="button"]:active, 
+form.editor input[type="submit"]:active {
+	opacity:0.8;
+	filter:alpha(opacity=80);}
+form.editor input.reset {border:solid thin #DDD;}
+form.editor input.submit {color:#FFF;}
+	

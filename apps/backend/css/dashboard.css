@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+.dashboard ul.menu {
+	text-align:center;}
+.dashboard ul.menu li {
+	margin:5px;	
+	font-size:14px;		
+	font-weight:bold;
+	display:inline-block;}
+.dashboard ul.menu li a {
+	background-color:#FFF;
+	width:290px;
+	height:205px;
+	min-height:205px;
+	box-shadow:0 1px 3px #CCC;
+	display:block;}
+.dashboard ul.menu li.wide a {
+	height:95px;
+	min-height:95px;
+	margin-bottom:14px;}
+.dashboard ul.menu li.wide a:last-child {
+	margin:0;}
+.dashboard ul.menu li a div {
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	position:relative;}	
+.dashboard ul.menu li a.inactive {color:#EE1111;}
+.dashboard ul.menu li a:hover {
+	background-color:#EEE;
+	transition:0.3s ease-in;}	
+
+.dashboard new {
+	color:#EE1111;
+	vertical-align:super;
+	font-size:12px;}
+.dashboard new:after {
+	content:"New";}
+
+
+
+

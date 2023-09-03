@@ -1,0 +1,9 @@
+<?PHP
+include_once('Headers.php');
+include_once('Manifest.php');
+include_once('Schema.php');
+include_once('Connection.php');
+include_once('Database.php');
+include_once('Bean.php');
+include_once('Navigator.php');
+?>

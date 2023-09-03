@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.date_widget {
+	bottom:10px;
+	right:10px;
+	padding:5px;
+	background-color:#333;
+	border-radius:25px;	
+	position:fixed;}
+.date_widget {	
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	transition:opacity 0.5s;
+	-webkit-transition:opacity 0.5s;}
+.date_widget:hover {	
+	opacity:1.0;
+	filter:alpha(opacity=100);}
+.date_widget input {
+	margin:0;
+	float:left;}	
+.date_widget input:not([type="button"]) {
+	padding:10px 15px;
+	border:0;
+	border-radius:20px 0 0 20px;}
+.date_widget input[type="button"] {
+	background-color:#333;
+	color:#FFF;
+	padding:6px 10px;
+	font-size:18px;
+	border:0;
+	border-radius:0 20px 20px 0;}
+	
+.tabs {
+	margin:10px 0;
+	font-size:14px;}
+.tabs label {
+	padding:0 5px;
+	cursor:default;}
+.tabs select {
+	padding:5px;}
+.tabs input[type="button"] {
+	background-color:#333;
+	color:#FFF;
+	padding:6px 10px;
+	border:0;
+	cursor:pointer;}
+
+
+
+
+
+
+
+
+

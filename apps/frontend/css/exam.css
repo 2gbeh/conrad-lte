@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+header .btn {
+	padding:5px;
+	padding-right:25px;}
+
+main .wrap {
+	padding:1px 0;
+	background-color:#FFF;
+	box-shadow:0 1px 2px 0 #DDD;
+	border-radius:5px;}
+main .meta {
+	padding-bottom:10px;
+	text-align:center;
+	font-size:14px;}
+main .meta var {
+	color:#333;
+/*	text-transform:uppercase;*/
+	font-style:normal;
+	font-weight:bold;}
+
+
+#target {
+	font-size:14px;}
+ul > li {
+	margin:15px;
+	display:block;}
+ul li label {
+/*	font-size:18px;*/
+	font-weight:bold;}	
+ul li input {
+	margin-bottom:3px;
+	vertical-align:bottom;
+	display:inline-block;}
+ol  {
+	margin:5px 10px 0;
+	display:block;
+	border-left:solid #DDD;}	
+ol li {
+	padding:0 5px 10px;
+	display:block;}
+ol li:last-child {
+	padding-bottom:0;}	
+	
+@media not screen and (min-width: 480px) 
+{
+	main .wrap {width:100%;}	
+	ul > li {margin:10px;}
+	main {margin-left:0; margin-right:0;}
+}	
+
+
+

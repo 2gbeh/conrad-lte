@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<link href="../../web/media/icons/favicon.ico" rel="icon" type="image/x-icon" />
+<title>Print Attendance | ConRAD LTE</title>
+<link href="../../lib/CSS/Master.css" rel="stylesheet" type="text/css" />
+<link href="../../lib/CSS/Predef.css" rel="stylesheet" type="text/css" />
+<script src="../../lib/JS/Master.js" type="text/javascript"></script>
+<script src="../../lib/JS/Buffer.js" type="text/javascript"></script>
+<script src="../../lib/JS/Scanner.js" type="text/javascript"></script>
+<script src="../../lib/JS/Session.js" type="text/javascript"></script>
+<script src="../../lib/JS/Cookie.js" type="text/javascript"></script>
+<script src="../../lib/JS/Controller.js" type="text/javascript"></script>
+<script src="../../lib/JS/Calendar.js" type="text/javascript"></script>
+<link href="../../web/css/shared/template.css" rel="stylesheet" type="text/css" />
+<script src="../../web/js/shared/template.js" type="text/javascript" ></script>
+<!-- Local Links -->
+<link href="css/global.css" rel="stylesheet" type="text/css" />
+<script src="js/global.js" type="text/javascript" ></script>
+<link href="css/table.css" rel="stylesheet" type="text/css" />
+<script src="js/attendance_print.js" type="text/javascript" ></script>
+<!-- End Local  Links -->
+<link href="../../web/css/shared/theme.css" rel="stylesheet" type="text/css" />
+<link href="../../web/css/shared/viewport.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="admin attendance">
+<header id="tmp-header">&nbsp;</header>
+
+
+<main class="whitespace">
+<div class="heading">
+    <h1 id="tmp-heading">&nbsp;</h1>
+    <h4>CLASS ATTENDANCE SHEET <a onClick="window.print()" title="Print (Ctrl + P)">(PRINT)</a></h4>
+</div>        
+
+<div class="tabs">
+<b>Faculty _________________</b>
+<label for="course_id">Course:</label>
+	<select name="course_id" id="course_id" data-ajax></select>
+<label for="month">Month:</label>
+	<select name="month" id="month" data-ajax></select>
+<label for="year">Year:</label>
+	<select name="year" id="year" data-ajax></select>
+<input type="button" id="button" value="Go" onClick="$_this_submit()" title="View" /> 
+</div>
+
+<table class="rec">
+<!--<caption id="caption">Showing rows 0 - 2 (~3, query took 0.0015 sec)</caption>    -->
+<tr>
+    <th>S/N</th>
+    <th>Date</th>    
+    <th>Student Name</th>
+    <th>Gender</th>
+    <th>Phone Number</th>
+    <th>Start Time</th>
+    <th>End Time</th>
+    <th>Signature</th>
+</tr>
+<tbody id="target">
+<!--<tr>
+    <td>1</td>
+    <td>2018-09-03</td>
+    <td>John Doe</td>
+    <td>Male</td>        
+    <td>01234567890</td>
+    <td>09:00</td>
+    <td>11:00</td>
+    <td>&nbsp;</td>  
+</tr> -->
+</tbody>
+</table>
+</main>
+
+<!--<footer id="tmp-footer">&nbsp;</footer>-->
+<script type="text/javascript">
+// JavaScript Document
+$_checkAppstate('../../index.html');
+$_template();
+$_start();
+</script>
+</body>
+</html>
+
+

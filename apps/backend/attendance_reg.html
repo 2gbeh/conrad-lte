@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<link href="../../web/media/icons/favicon.ico" rel="icon" type="image/x-icon" />
+<title>Take Attendance | ConRAD LTE</title>
+<link href="../../lib/CSS/Master.css" rel="stylesheet" type="text/css" />
+<link href="../../lib/CSS/Predef.css" rel="stylesheet" type="text/css" />
+<script src="../../lib/JS/Master.js" type="text/javascript"></script>
+<script src="../../lib/JS/Buffer.js" type="text/javascript"></script>
+<script src="../../lib/JS/Scanner.js" type="text/javascript"></script>
+<script src="../../lib/JS/Session.js" type="text/javascript"></script>
+<script src="../../lib/JS/Cookie.js" type="text/javascript"></script>
+<script src="../../lib/JS/Controller.js" type="text/javascript"></script>
+<script src="../../lib/JS/Calendar.js" type="text/javascript"></script>
+<link href="../../web/css/shared/template.css" rel="stylesheet" type="text/css" />
+<script src="../../web/js/shared/template.js" type="text/javascript" ></script>
+<!-- Local Links -->
+<link href="css/global.css" rel="stylesheet" type="text/css" />
+<script src="js/global.js" type="text/javascript" ></script>
+<link href="css/table.css" rel="stylesheet" type="text/css" />
+<script src="js/attendance_reg.js" type="text/javascript" ></script>
+<!-- End Local  Links -->
+<link href="../../web/css/shared/theme.css" rel="stylesheet" type="text/css" />
+<link href="../../web/css/shared/viewport.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="admin attendance">
+<header id="tmp-header">&nbsp;</header>
+
+
+<main class="whitespace">
+<div class="heading">
+    <h1 id="tmp-heading">&nbsp;</h1>
+    <h4>ATTENDANCE LEDGER <a href="attendance_list.html" title="Attendance Records">(VIEW)</a></h4>
+</div>        
+<table class="rec">
+<caption id="caption">Showing rows 0 - 2 (~3, query took 0.0015 sec)</caption>    
+<tr>
+    <th><input type="checkbox" onclick="$_checkAll(this);$_focusAll(this,'target');" /> S/N</th>
+    <th>Full Name</th>
+    <th>Sex</th>
+    <th>Course ID</th>        
+    <th>Batch</th>
+    <th>Date</th>        
+</tr>
+<tbody id="target">
+<tr>
+    <td><input type="checkbox" name="checkbox[]" value="15" onclick="$_focusThis(this,'target',0)" data-ajax /> 1</td>
+    <td>John Doe</td>
+    <td>M</td>        
+    <td>Java</td>
+    <td>A</td>
+    <td>Fri, Mar 8, 2019</td>   
+</tr> 
+</tbody>
+</table>
+</main>
+
+
+<section class="date_widget">
+<input 
+    type="datetime"
+    id="date" 
+    name="date"
+    placeholder="Enter Timestamp"
+    maxlength="20" 
+    title="*YYYY-MM-DD HH:MM:SS"
+    data-ajax
+    checked />
+
+<input 
+    type="button" 
+    value="&rarr;" 
+    onClick="$_this_submit()" 
+    title="Submit" />    
+</section>
+
+
+<footer id="tmp-footer">&nbsp;</footer>
+<script type="text/javascript">
+// JavaScript Document
+$_checkAppstate('../../index.html');
+$_template();
+$_start();
+$_this_datetime();
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+table.rec {
+	text-align:left;
+	font-size:14px;
+	box-shadow:0 1px 2px 0 #DDD;}	
+table.rec caption {	
+	background-color:#EBF8A4;
+	padding:10px 20px;
+	margin-bottom:5px;
+	text-align:left;
+	font-size:14px;
+	font-weight:bold;	
+	border:solid thin #090;
+	border-radius:5px;}	
+table.rec caption var {
+	color:#333;
+	font-style:normal;
+	font-weight:bold;}
+table.rec caption a {
+	color:blue;
+	text-decoration:underline;}	
+table.rec time {float:right;}	
+table.rec th {text-transform:uppercase;}
+table.rec th,
+table.rec tr.thead td {
+	background-color:#FFF;	
+	padding:10px;
+	font-weight:bold;
+	border-bottom:solid 5px #E6E6FA;}	
+table.rec td {
+	background-color:#FFF;	
+	padding:10px;
+	border-bottom:solid thin #EEE;}	
+table.rec td input[type="checkbox"] {
+	margin:3px 10px 0 0;  
+	width:auto;
+	float:left;
+	vertical-align:text-bottom;}	
+table.rec tr.focus td {color:#FFF;}
+table.rec tr.ruler td {border-bottom:solid 2px red;}
+table.rec tr:hover td {
+	background-color:#EEE;
+	border-bottom:solid thin #DDD;}
+table.rec tr.section td {
+	background-color:#E6E6FA;	
+	padding:10px;
+	font-weight:bold;}	
+	
+	
+	
