@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+.notice 
+{
+  padding:10px 15px;
+  margin-bottom:10px;
+  text-align:left;
+  font-size:14px;
+  box-shadow:0 2px 4px 0 #DDD;
+  -webkit-transition:display 2s;
+  transition:display 2s;
+}
+.notice a 
+{
+  text-decoration:underline;
+}
+.notice.good
+{
+  background-color:#DFF0D8;
+  color:#3C763D;
+}
+.notice.bad
+{
+  background-color:#F2DEDE;
+  color:#D9534F;
+}

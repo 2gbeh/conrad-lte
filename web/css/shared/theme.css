@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* 
+Cyan 	#0093DD
+Lyan	#75C5F0	
+Dyan	#007BB8
+Call	#16BC00
+Dall	#090		
+Blood	#EE1111	
+Focus 	#FFC
+NIIT 	#0E3997
+DIIT	#0A2E7D
+*/
+.theme-bg, 
+header,
+header .btn-sec, 
+header time, 
+table.rec tr.focus td, 
+.landing .submit:hover, 
+form.editor input.submit, 
+.dashboard ul.nav li a:hover {
+	background-color:#0E3997;}
+
+.theme-color, 
+header .btn-pri, 
+main .heading h1, 
+main .heading h4 {
+	color:#0E3997;}
+
+.theme-border {
+	border-bottom:solid thin #0E3997;}
+
+.theme-shadow,
+header .logo, 
+header .btn {
+	box-shadow:0 1px 2px 0 #0A2E7D;}
+	
+	
+header .btn, 
+main .heading, 
+main .meta, 
+.notice, 
+.exam #target, 
+table.rec, 
+table.rec caption, 
+form.editor label, 
+form.editor input, 
+form.editor select, 
+footer {
+	font-size:12px;}
+	
+	
+	
+	

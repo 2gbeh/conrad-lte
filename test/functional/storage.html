@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="../../web/js/master.js" type="text/javascript"></script>
+<body>
+<main id="turbo"></main>
+<script type="text/javascript">
+// JavaScript Document
+$_setCookie('password','4444');
+$_setCookie('username','2gbeh');
+$_turbo($_getCookie('username')+"<br/>");
+$_turbo($_getCookie('password')+"<br/>");
+$_delCookie('password');
+$_turbo($_getCookie('password')+"<br/>");
+$_clearCookie();
+$_turbo($_getCookie('username')+"<br/>");
+$_turbo($_getCookie('password')+"<br/>");
+</script>
+</body>
+</html>
+
+

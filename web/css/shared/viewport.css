@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+@media not screen and (min-width: 480px) 
+{
+	.wrap, .overflow {width:100%;}	
+	ul.cbt > li {margin:5px;}
+	main {margin:0;}
+	main .heading {padding-top:20px;}
+}

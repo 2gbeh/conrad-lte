@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.landing main {
+	margin-top:200px;
+	text-align:center;
+	text-shadow:0 1px 0 #FFF;}
+.landing main h1 {margin-bottom:10px;}
+.landing main h4 {
+	padding:0;
+	margin:0;}
+
+
+.landing main table {
+	padding:0;
+	margin:0;
+	width:350px;
+	min-width:350px;
+	display:inline-block;}
+.landing main table td {
+	padding:0;
+	margin:0;}
+.landing main .thumbnail {
+	margin:5px;
+	margin-right:20px;
+	background-color:#FFF;	
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:contain;
+	width:80px;
+	height:80px;
+	border-radius:100%;
+	box-shadow:0 1px 2px 0 #DDD;}
+
+
+.landing main input {
+	margin:0;
+	float:left;
+	box-shadow:0 1px 2px 0 #DDD;}	
+.landing main input[type="text"], 
+.landing main input[type="password"] {
+	padding:10px 15px;
+	border:0;
+	border-radius:20px 0 0 20px;}
+.landing main input[type="button"] {
+	background-color:#FFF;
+	padding:6px 10px;
+	font-size:18px;
+	border:0;	
+	border-radius:0 20px 20px 0;}		
+.landing main input[type="button"]:hover {color:#FFF;}	
+
+	
+	
+	

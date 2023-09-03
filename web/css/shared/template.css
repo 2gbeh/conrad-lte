@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document #0E3997 */
+body {background-color:#E6E6FA;}
+
+	
+header {
+	top:0;
+	padding:0 20px;
+	color:#FFF;
+	width:100%;
+	box-shadow:0 1px 2px 0 #DDD;
+	position:fixed;}
+header .logo {
+	margin:5px;
+	margin-right:20px;
+	background-color:#FFF;	
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:contain;
+	width:40px;
+	height:40px;
+	border-radius:100%;}
+header .btn {
+	padding:12px 25px;	
+	margin:0 2px;
+	background-color:#FFF;
+	font-size:14px;	
+	border-radius:20px;}
+header .btn-pri {background-color:#FFF;}
+header .btn-pri:hover {
+	background-color:#EEE;
+	cursor:default;}
+header .btn-sec {
+	padding-top:10px;
+	padding-bottom:10px;
+	border:solid 2px;}
+header .btn-alt {background-color:#16BC00;}
+header .btn-alt:hover {
+	background-color:#090;
+	cursor:default;}
+header time {
+	padding:8px 10px;
+	margin-right:5px;
+	display:inline-block;
+	font-weight:bold;
+	border-radius:20px;}
+	
+	
+main {margin:20px 20px 0;}
+main .heading {
+	margin-bottom:10px;
+	text-align:center;
+	font-style:italic;}		
+main .heading h1 {margin:0;}
+main .heading h4 {
+	margin:0;
+	text-transform:uppercase;
+	font-weight:bold;}
+main .heading a {text-decoration:underline;}	
+	
+			
+footer {
+	padding:20px 0;
+	text-align:center;
+	text-shadow:0 1px 0 #FFF;
+	font-size:14px;}
+footer address {padding-top:5px;}
+

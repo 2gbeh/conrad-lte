@@ -1,0 +1,320 @@
+{
+	"schema":
+	{
+		"examiner":"Tugbeh Emmanuel",
+		"course":"Java Programming 1 & 2",	
+		"total":"40",
+		"time":"30",
+		"date":"2018-12-06"
+	},
+	"table":
+	[
+		{
+			"question":"Which one of the following options is the correct extension of a Java source file?",
+			"option1":".jav",
+			"option2":".java",
+			"option3":".JAVA",
+			"option4":".class",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following keywords controls the access to a block of code in a multithreaded programming environment?",
+			"option1":"synchronized",
+			"option2":"native",
+			"option3":"volatile",
+			"option4":"abstract",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following access specifiers represents the least restrictive level of access?",
+			"option1":"private",
+			"option2":"public",
+			"option3":"protected",
+			"option4":"default access",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following literals is specified by using single quotation marks?",
+			"option1":"string",
+			"option2":"character",
+			"option3":"float",
+			"option4":"integer",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following operators is used to find the remainder after dividing two numbers?",
+			"option1":"Plus operator",
+			"option2":"Minus operator",
+			"option3":"Modulus operator",
+			"option4":"Multiply operator",
+			"answer":"option3"
+		},
+		{
+			"question":"Which one of the following operators is used to get output as true, if both expressions are true?",
+			"option1":"Logical AND",
+			"option2":"Logical OR",
+			"option3":"Bitwise NOT",
+			"option4":"Bitwise OR",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following operators is used to find the remainder after dividing the two numbers?",
+			"option1":"+",
+			"option2":"/",
+			"option3":"%",
+			"option4":"&&",
+			"answer":"option3"
+		},
+		{
+			"question":"Which one of the following constructs is the looping constructs?",
+			"option1":"if...else",
+			"option2":"break",
+			"option3":"switch",
+			"option4":"for",
+			"answer":"option4"
+		},
+		{
+			"question":"Which one of the following options is the correct declaration of an array?",
+			"option1":"int [10] list;",
+			"option2":"int list[10];",
+			"option3":"int list= new int[10];",
+			"option4":"int[] list = new int[10];",
+			"answer":"option4"
+		},
+		{
+			"question":"Which one of the following String class methods returns the output as true if both strings are equal?",
+			"option1":"equals()",
+			"option2":"compareTo()",
+			"option3":"append()",
+			"option4":"subString()",
+			"answer":"option1"
+		},
+		{
+			"question":"In which one of the following options, one or more subclasses are derived from a single superclass?",
+			"option1":"Single level inheritance",
+			"option2":"Instantiation",
+			"option3":"Multiple inheritance",
+			"option4":"Hierarchical inheritance",
+			"answer":"option4"
+		},
+		{
+			"question":"Which one of the following options allows a methods to exist in multiple forms?",
+			"option1":"Polymorphism",
+			"option2":"Encapsulation",
+			"option3":"Inheritance",
+			"option4":"Abstraction",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following keywords is used to enclose the statements that might raise an exception?",
+			"option1":"try",
+			"option2":"catch",
+			"option3":"throw",
+			"option4":"finally",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following layout manager classes is used to organize the components in a tabular form?",
+			"option1":"FlowLayout",
+			"option2":"GridLayout",
+			"option3":"BorderLayout",
+			"option4":"CardLayout",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following methods is used to set the layout of a container?",
+			"option1":"setLayout()",
+			"option2":"startLayout()",
+			"option3":"initLayout()",
+			"option4":"layoutContainer()",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following components allows adding multiple lines of text?",
+			"option1":"JTextField",
+			"option2":"JTextArea",
+			"option3":"JOptionPane",
+			"option4":"JDialog",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following components is used to create a set of components that are grouped together in which only one component can be selected?",
+			"option1":"JCheckBox",
+			"option2":"JButton",
+			"option3":"JRadioButton",
+			"option4":"JFrame",
+			"answer":"option3"
+		},
+		{
+			"question":"Which one the following components of the event model listens for a specific event?",
+			"option1":"Event source",
+			"option2":"Event handler",
+			"option3":"Event class",
+			"option4":"Event object",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one the following event classes contains the getX() and getY() methods?",
+			"option1":"MouseEvent",
+			"option2":"KeyEvent",
+			"option3":"ActionEvent",
+			"option4":"FocusEvent",
+			"answer":"option1"
+		},
+		{
+			"question":"State whether the following statement is true or false. The JCheckBox and JComboBox classes generate the item event.",
+			"option1":"True",
+			"option2":"False",
+			"answer":"option1"
+		},
+		{
+			"question":"State whether the following statement is true or false. Upcasting is done along the class hierarchy in a direction from a derived class to the base class.",
+			"option1":"True",
+			"option2":"False",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following inner classes is defined inside the method of the enclosing class?",
+			"option1":"Regular inner class",
+			"option2":"Static inner class",
+			"option3":"Method-local inner class",
+			"answer":"option3"
+		},
+		{
+			"question":"Which one of the following options correctly denotes an anonymous inner class?",
+			"option1":"It is defined inside the method of the enclosing class",
+			"option2":"It is marked with a static modifier",
+			"option3":"It is similar to the member of the outer class",
+			"option4":"It does not have a name and is either a subclass of a class or an implementer of an interface",
+			"answer":"option4"
+		},
+		{
+			"question":"State whether the following statement is true or false. Downcasting is usually done along the class hierarchy in a direction from the base class towards the derived classes.",
+			"option1":"True",
+			"option2":"False",
+			"answer":"option1"
+		},
+		{
+			"question":"State whether the following statement is true or false. Method-local inner class is defined inside the method of the enclosing class.",
+			"option1":"True",
+			"option2":"False",
+			"answer":"option1"
+		},
+		{
+			"question":"State whether the following statement is true or false. Localization is the process of customizing the application to a specific locale and culture.",
+			"option1":"True",
+			"option2":"False",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following symbols is used to define type parameters?",
+			"option1":"{}",
+			"option2":"[]",
+			"option3":"()",
+			"option4":"<>",
+			"answer":"option4"
+		},
+		{
+			"question":"State whether the following statement is true or false. A non-generic class can contain a generic method.",
+			"option1":"True",
+			"option2":"False",
+			"answer":"option1"
+		},
+		{
+			"question":"Identify the correct syntax of a generic class.",
+			"option1":"public <T> class myClass {}",
+			"option2":"public class <T> myClass {}",
+			"option3":"public class myClass <T> {}",
+			"option4":"public class myClass {<T>}",
+			"answer":"option3"
+		},
+		{
+			"question":"Identify the correct syntax of a generic method.",
+			"option1":"public <T> T myMethod()",
+			"option2":"public myMethod<T> T()",
+			"option3":"public <T> myMethod()",
+			"option4":"public myMethod T()",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following classes implements the List interface?",
+			"option1":"HashSet",
+			"option2":"TreeSet",
+			"option3":"Hashtable",
+			"option4":"Vector",
+			"answer":"option4"
+		},
+		{
+			"question":"Which one of the following classes is inherited from the Dictionary class?",
+			"option1":"HashSet",
+			"option2":"TreeSet",
+			"option3":"Hashtable",
+			"option4":"HashMap",
+			"answer":"option3"
+		},
+		{
+			"question":"Which one of the following interfaces enables you to traverse the list of objects?",
+			"option1":"Iterator",
+			"option2":"List",
+			"option3":"Collection",
+			"option4":"Comparable",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following interfaces is used to create a collection of unique objects?",
+			"option1":"Set",
+			"option2":"Map",
+			"option3":"Deque",
+			"option4":"List",
+			"answer":"option1"
+		},
+		{
+			"question":"Identify the minimum value to set the thread priority.",
+			"option1":"5",
+			"option2":"10",
+			"option3":"1",
+			"option4":"15",
+			"answer":"option3"
+		},
+		{
+			"question":"Identify the method that is used to check the existence of a thread.",
+			"option1":"isAlive()",
+			"option2":"sleep()",
+			"option3":"synchronize()",
+			"option4":"alive()",
+			"answer":"option1"
+		},
+		{
+			"question":"Identify the method that returns the name of a thread.",
+			"option1":"Name()",
+			"option2":"getName()",
+			"option3":"getThreadName()",
+			"option4":"curentThreadName()",
+			"answer":"option2"
+		},
+		{
+			"question":"Identify the method that is used to pause the execution of a thread for a period of time.",
+			"option1":"isAlive()",
+			"option2":"sleep()",
+			"option3":"notify()",
+			"option4":"stop()",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following methods is used to return the estimate number of bytes that can read from an input stream?",
+			"option1":"available()",
+			"option2":"reset()",
+			"option3":"read()",
+			"option4":"ready()",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following Java drivers interacts with the database directly using a vendor-specific network protocol?",
+			"option1":"JDBC-ODBC Bridge driver",
+			"option2":"Native-API driver",
+			"option3":"Network Protocol driver",
+			"option4":"Native Protocol driver",
+			"answer":"option4"
+		}		
+	]
+}

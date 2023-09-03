@@ -1,0 +1,173 @@
+{
+	"schema":
+	{
+		"examiner":"Tugbeh Emmanuel",
+		"course":"HTML5 Programming",	
+		"total":"20",
+		"time":"10",
+		"date":"2018-12-06"
+	},
+	"table":
+	[
+		{
+			"question":"Which one of the following tags is used in an HTML document to instruct the browser about the version of HTML?",
+			"option1":"<HTML>",
+			"option2":"<!DOCTYPE HTML>",
+			"option3":"<TITLE>",
+			"option4":"<HEAD>",
+			"answer":"option2"
+		},
+		{
+			"question":"You need to embed an mp4 file in your HTML document. Which one of the following tags will you use for this purpose?",
+			"option1":"<AUDIO>",
+			"option2":"<VIDEO>",
+			"option3":"<LINIK>",
+			"option4":"<SPAN>",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following attributes of the <OL> tag is used to specify the style of bullet to be used in a list?",
+			"option1":"reversed",
+			"option2":"start",
+			"option3":"type",
+			"option4":"poster",
+			"answer":"option3"
+		},
+		{
+			"question":"Which one of the following code snippets can be used in the HTML document named Listings.html to associate it with a style sheet named List.css?",
+			"option1":"<LINK type='text/css' rel='stylesheet' href='List.css' />",
+			"option2":"<LINK type='text/css' rel='stylesheet' href='List.stylesheet' />",
+			"option3":"<LINK type='text' rel='stylesheet' href='List.css' />",
+			"option4":"<LINK type='text/css' rel='stylesheet' href='List.html' />",
+			"answer":"option1"
+		},
+		{
+			"question":"Identify the HTML tag that is used to use an embedded style sheet in an HTML document.",
+			"option1":"<HEAD>",
+			"option2":"<SCRIPT>",
+			"option3":"<STYLE>",
+			"option4":"<TEXT>",
+			"answer":"option3"
+		},
+		{
+			"question":"Which one of the following CSS properties is used to specify some text in italics by using CSS?",
+			"option1":"font-weight",
+			"option2":"font-style",
+			"option3":"text-indent",
+			"option4":"text-align",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following CSS properties is used to control the capitalization of the text?",
+			"option1":"text-transform",
+			"option2":"text-decoration",
+			"option3":"text-indent",
+			"option4":"text-align",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following values in display property hides an element from a Web page?",
+			"option1":"inline",
+			"option2":"block",
+			"option3":"hidden",
+			"option4":"none",
+			"answer":"option4"
+		},
+		{
+			"question":"Which one of the following tags is used to add rows to a table?",
+			"option1":"<TR>",
+			"option2":"<TD>",
+			"option3":"<THEAD>",
+			"option4":"<TFOOT>",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following properties is used to control the space between the table and the content in the table?",
+			"option1":"colspan",
+			"option2":"border",
+			"option3":"padding",
+			"option4":"text-align",
+			"answer":"option3"
+		},
+		{
+			"question":"Which one of the following attributes is used to merge the cells of a column?",
+			"option1":"rowspan",
+			"option2":"colspan",
+			"option3":"cell-spacing",
+			"option4":"padding",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following attributes specifies an area around an element?",
+			"option1":"srcdoc",
+			"option2":"margin",
+			"option3":"height",
+			"option4":"scrolling",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following functions is used to display a dialog box that will enable a user to verify or accept a task?",
+			"option1":"confirm()",
+			"option2":"prompt()",
+			"option3":"eval()",
+			"option4":"parseInt()",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following attributes is used to specify the format in which the data will be submitted to the file or the URL specified in the action attribute?",
+			"option1":"ID",
+			"option2":"name",
+			"option3":"method",
+			"option4":"novalidate",
+			"answer":"option3"
+		},
+		{
+			"question":"Which one of the following attributes is used to specify that an input field must not be left empty while submitting the form?",
+			"option1":"autofocus",
+			"option2":"required",
+			"option3":"value",
+			"option4":"target",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following symbols is used to represent jQuery?",
+			"option1":"#",
+			"option2":"$",
+			"option3":"&",
+			"option4":"*",
+			"answer":"option2"
+		},
+		{
+			"question":"Which one of the following syntax should be used to select and hide all the <h1> elements in a Web page?",
+			"option1":"$('h1').hide();",
+			"option2":"$(h1).hide;",
+			"option3":"('h1').hide;",
+			"option4":"$'h3'.hide();",
+			"answer":"option1"
+		},
+		{
+			"question":"Brendan Eich (author of JavaScript) wants to insert a word at the end of the content inside the <p> elements in a Web page. Which one of the following functions should he use to perform this task?",
+			"option1":"append()",
+			"option2":"prepend()",
+			"option3":"insert()",
+			"option4":"after()",
+			"answer":"option1"
+		},
+		{
+			"question":"John Resig (author of jQuery) is a Web developer. He wants to create a lightbox on a Web page. Which one of the following methods can he use to create the lightbox?",
+			"option1":"colorbox();",
+			"option2":"lightbox();",
+			"option3":"color();",
+			"option4":"light();",
+			"answer":"option1"
+		},
+		{
+			"question":"Which one of the following objects contains the information about a browser?",
+			"option1":"navigator",
+			"option2":"geolocation",
+			"option3":"position",
+			"option4":"error",
+			"answer":"option1"
+		}		
+	]
+}
